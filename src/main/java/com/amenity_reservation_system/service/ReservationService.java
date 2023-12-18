@@ -1,11 +1,9 @@
 package com.amenity_reservation_system.service;
 
 import com.amenity_reservation_system.exception.CapacityFullException;
-import com.amenity_reservation_system.model.Capacity;
 import com.amenity_reservation_system.model.Reservation;
 import com.amenity_reservation_system.repos.CapacityRepository;
 import com.amenity_reservation_system.repos.ReservationRepository;
-import com.amenity_reservation_system.repos.UserRepository;
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
