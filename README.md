@@ -31,7 +31,7 @@ el servicio al mismo tiempo) para que las personas puedan hacer uso de las ameni
 
 
 ## Construcción Automática: Usar herramientas (por ejemplo maven o graddle para Java)
-![Maven - Java](images/maven.png)
+![Maven - Java](images/maven.PNG)
 
 ## Análisis Estático de Código Fuente: Usar herramientas SonarQube [Primer Análisis]
 ![SonarLint - Primer Análisis](images/captura_sonarlint.png)
