@@ -29,12 +29,13 @@ public class AmenityReservationSystemApplication {
   public static void main(String[] args) {
     SpringApplication.run(AmenityReservationSystemApplication.class, args);
   }
-
+ 
   @Bean
   public CommandLineRunner loadData(
       UserRepository userRepository,
       CapacityRepository capacityRepository) {
     return args -> {
+    	
       userRepository.save(
           new User("Yigit Kemal Erinc", "yigiterinc", bCryptPasswordEncoder().encode(extracted())));
 
