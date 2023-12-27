@@ -4,6 +4,7 @@ Un sistema de reserva de servicios donde los usuarios/residentes pueden iniciar 
 una piscina o una sauna en un hipotético complejo de apartamentos. Cada amenidad tendrá una capacidad determinada (número de personas que pueden utilizar 
 el servicio al mismo tiempo) para que las personas puedan hacer uso de las amenidades de manera segura durante la pandemia de Covid-19.
 
+![Reservations](images/captura_html.png)
 
 ## Tecnologías
 * Spring Boot
@@ -29,4 +30,24 @@ el servicio al mismo tiempo) para que las personas puedan hacer uso de las ameni
 
 
 
+## Construcción Automática: Usar herramientas (por ejemplo maven o graddle para Java)
+![Maven - Java](images/maven.png)
 
+## Análisis Estático de Código Fuente: Usar herramientas SonarQube [Primer Análisis]
+![SonarLint - Primer Análisis](images/captura_sonarlint.png)
+![SonarQube - Primer Análisis](images/captura_sonarqube.png)
+
+## Pruebas Unitarias: Usar frameworks xUnit (por ejemplo JUnit para Java)
+![Junit&Selenium - Tests](images/ListaTest.png)
+
+## Pruebas Funcionales: Usar framework Selenium (o Appium)
+![Selenium - Tests](images/Selenium.png)
+
+## Pruebas de Performance: Usar herramienta JMeter
+![Jmeter](images/jmeter.png)
+
+## Pruebas de Seguridad: Usar herramienta OWASP ZAP
+![Owasp](images/owasp.png)
+
+## Gestión de Issues: Usar Github Issues, Trello o Jira
+![Owasp](images/trello.png)
